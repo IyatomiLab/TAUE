@@ -30,7 +30,7 @@
   <meta property="og:description"
     content="We propose TAUE, a training-free diffusion model that enables layer-wise image generation by transplanting and cultivating noise across layers.">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://iyatomilab.github.io/TAUE">
   <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
@@ -86,7 +86,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model - Nagai et al.</title>
 
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -179,7 +179,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+      "@id": "https://iyatomilab.github.io/TAUE"
     },
     "about": [
       {
@@ -199,12 +199,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "name": "Iyatomi Lab, Hosei University",
+    "url": "https://iyatomi-lab.info/english-top",
     "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
     "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
+      "https://github.com/IyatomiLab"
     ]
   }
   </script>
@@ -334,6 +333,27 @@
         </div>
       </div>
     </section>
+
+    <!-- Teaser video-->
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <!-- TODO: Replace with your teaser video -->
+          <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+            <!-- TODO: Add your video file path here -->
+            <source src="static/videos/taue-animation.mp4" type="video/mp4">
+          </video>
+          <!-- TODO: Replace with your video description -->
+          <h2 class="subtitle has-text-centered">
+            <strong>TAUE</strong> introduces a training-free method for layer-wise image generation. By transplanting an
+            intermediate
+            <i>seedling latent</i> from the foreground to the composite generation process, TAUE simultaneously produces
+            a consistent foreground, background, and composite image.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- End teaser video -->
 
     <!-- Paper abstract -->
     <section class="section hero is-light">
