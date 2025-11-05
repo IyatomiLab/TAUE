@@ -32,7 +32,7 @@
   <!-- TODO: Replace with your actual website URL -->
   <meta property="og:url" content="https://iyatomilab.github.io/TAUE">
   <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image" content="https://iyatomilab.github.io/TAUE/static/images/what-is-taue.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt"
@@ -56,7 +56,7 @@
   <meta name="twitter:description"
     content="We propose TAUE, a training-free diffusion model that enables layer-wise image generation by transplanting and cultivating noise across layers.">
   <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image" content="https://iyatomilab.github.io/TAUE/static/images/what-is-taue.png">
   <meta name="twitter:image:alt"
     content="TAUE: Training-free Noise Transplant and Cultivation Diffusion Model - Nagai et al. - Research Preview">
 
@@ -69,7 +69,7 @@
   <meta name="citation_author" content="Iyatomi, Hitoshi">
   <meta name="citation_publication_date" content="2025">
   <meta name="citation_conference_title" content="Under Review">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2511.02580">
 
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -171,9 +171,9 @@
       "name": "CONFERENCE_OR_JOURNAL_NAME"
     },
     "url": "https://iyatomilab.github.io/TAUE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "image": "https://iyatomilab.github.io/TAUE/static/images/what-is-taue.png",
+    "keywords": ["TAUE", "diffusion model", "training-free", "image generation", "machine learning", "computer vision", "AI"],
+    "abstract": "Despite the remarkable success of text-to-image diffusion models, their output of a single, flattened image remains a critical bottleneck for professional applications requiring layer-wise control. Existing solutions either rely on fine-tuning with large, inaccessible datasets or are training-free yet limited to generating isolated foreground elements, failing to produce a complete and coherent scene. To address this, we introduce the Training-free Noise Transplantation and Cultivation Diffusion Model (TAUE), a novel framework for zero-shot, layer-wise image generation. Our core technique, Noise Transplantation and Cultivation (NTC), extracts intermediate latent representations from both foreground and composite generation processes, transplanting them into the initial noise for subsequent layers. This ensures semantic and structural coherence across foreground, background, and composite layers, enabling consistent, multi-layered outputs without requiring fine-tuning or auxiliary datasets. Extensive experiments show that our training-free method achieves performance comparable to fine-tuned methods, enhancing layer-wise consistency while maintaining high image quality and fidelity. TAUE not only eliminates costly training and dataset requirements but also unlocks novel downstream applications, such as complex compositional editing, paving the way for more accessible and controllable generative workflows.",
     "citation": "BIBTEX_CITATION_HERE",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -184,11 +184,27 @@
     "about": [
       {
         "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
+        "name": "Diffusion Model"
       },
       {
         "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
+        "name": "Training-free"
+      },
+      {
+        "@type": "Thing", 
+        "name": "Image Generation"
+      },
+      {
+        "@type": "Thing", 
+        "name": "Machine Learning"
+      },
+      {
+        "@type": "Thing", 
+        "name": "Computer Vision"
+      },
+      {
+        "@type": "Thing", 
+        "name": "Artificial Intelligence"
       }
     ]
   }
@@ -262,7 +278,7 @@
               <div class="is-size-5 publication-authors">
                 <!-- TODO: Replace with your paper authors and their personal links -->
                 <span class="author-block">
-                  <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Daichi Nagai</a><sup>*</sup>,</span>
+                  Daichi Nagai<sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="https://ryugo417.github.io/" target="_blank">Ryugo Morita</a><sup>*</sup>,</span>
                 <span class="author-block">
@@ -285,7 +301,7 @@
                 <div class="publication-links">
                   <!-- TODO: Update with your arXiv paper ID -->
                   <span class="link-block">
-                    <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    <a href="https://arxiv.org/pdf/2511.02580.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -294,7 +310,7 @@
                     </a>
                   </span>
 
-                  <!-- TODO: Add your supplementary material PDF or remove this section -->
+                  <!-- TODO: Add your supplementary material PDF or remove this section
                   <span class="link-block">
                     <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -303,7 +319,7 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
@@ -318,7 +334,7 @@
 
                   <!-- TODO: Update with your arXiv paper ID -->
                   <span class="link-block">
-                    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    <a href="https://arxiv.org/abs/2511.02580" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="ai ai-arxiv"></i>
@@ -387,36 +403,50 @@
     </section>
     <!-- End paper abstract -->
 
+    <section class="section hero is-small">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">TAUE</h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                <img src="static/images/what-is-taue.png" alt="What is TAUE?" />
+                <i>TAUE is the Japanese term for transplanting rice seedlings, symbolizing the nurturing and cultivation
+                  process, which parallels our model's core concept of cultivating latent representations.</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
     <!-- Image carousel -->
-    <section class="hero is-small">
+    <!-- <section class="hero is-small">
       <div class="hero-body">
         <div class="container">
           <div id="results-carousel" class="carousel results-carousel">
             <div class="item">
-              <!-- TODO: Replace with your research result images -->
               <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy" />
-              <!-- TODO: Replace with description of this result -->
               <h2 class="subtitle has-text-centered">
                 First image description.
               </h2>
             </div>
             <div class="item">
-              <!-- Your image here -->
               <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy" />
               <h2 class="subtitle has-text-centered">
                 Second image description.
               </h2>
             </div>
             <div class="item">
-              <!-- Your image here -->
               <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy" />
               <h2 class="subtitle has-text-centered">
                 Third image description.
               </h2>
             </div>
             <div class="item">
-              <!-- Your image here -->
               <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy" />
               <h2 class="subtitle has-text-centered">
                 Fourth image description.
@@ -425,23 +455,18 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End image carousel -->
 
-
-
-
     <!-- Youtube video -->
-    <section class="hero is-small is-light">
+    <!-- <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container">
-          <!-- Paper video. -->
           <h2 class="title is-3">Video Presentation</h2>
           <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
 
               <div class="publication-video">
-                <!-- TODO: Replace with your YouTube video ID -->
                 <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0"
                   allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
@@ -449,64 +474,54 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End youtube video -->
 
 
     <!-- Video carousel -->
-    <section class="hero is-small">
+    <!-- <section class="hero is-small">
       <div class="hero-body">
         <div class="container">
           <h2 class="title is-3">Another Carousel</h2>
           <div id="results-carousel" class="carousel results-carousel">
             <div class="item item-video1">
-              <!-- TODO: Add poster image for better preview -->
               <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-                <!-- Your video file here -->
+                Your video file here
                 <source src="static/videos/carousel1.mp4" type="video/mp4">
               </video>
             </div>
             <div class="item item-video2">
-              <!-- TODO: Add poster image for better preview -->
               <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-                <!-- Your video file here -->
+                Your video file here
                 <source src="static/videos/carousel2.mp4" type="video/mp4">
               </video>
             </div>
             <div class="item item-video3">
-              <!-- TODO: Add poster image for better preview -->
               <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-                <!-- Your video file here -->
+                Your video file here
                 <source src="static/videos/carousel3.mp4" type="video/mp4">
               </video>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End video carousel -->
 
-
-
-
-
-
     <!-- Paper poster -->
-    <section class="hero is-small is-light">
+    <!-- <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container">
           <h2 class="title">Poster</h2>
 
-          <!-- TODO: Replace with your poster PDF -->
+          TODO: Replace with your poster PDF
           <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
 
         </div>
       </div>
-    </section>
+    </section> -->
     <!--End paper poster -->
-
-
 
     <!--BibTex citation -->
     <section class="section" id="BibTeX">
@@ -518,12 +533,11 @@
             <span class="copy-text">Copy</span>
           </button>
         </div>
-        <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+        <pre id="bibtex-code"><code>@article{nagai2025taue,
+  title={TAUE: Training-free Noise Transplant and Cultivation Diffusion Model},
+  author={Nagai, Daichi and Morita, Ryugo and Kitada, Shunsuke and Iyatomi, Hitoshi},
+  journal={arXiv preprint arXiv:2511.02580},
+  year={2025}
 }</code></pre>
       </div>
     </section>
@@ -535,7 +549,6 @@
         <div class="columns is-centered">
           <div class="column is-8">
             <div class="content">
-
               <p>
                 This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
                   target="_blank">Academic Project Page Template</a> which was adopted from the <a
