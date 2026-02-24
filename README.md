@@ -6,6 +6,8 @@
 
 Daichi Nagai*, [Ryugo Morita](https://ryugo417.github.io/)*, [Shunsuke Kitada](https://shunk031.me/), [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top)
 
+https://iyatomilab.github.io/TAUE/static/videos/taue-animation.mp4
+
 ## Abstract
 
 Despite the remarkable success of text-to-image diffusion models, their output of a single, flattened image remains a critical bottleneck for professional applications requiring layer-wise control. Existing solutions either rely on fine-tuning with large, inaccessible datasets or are training-free yet limited to generating isolated foreground elements, failing to produce a complete and coherent scene. To address this, we introduce the Training-free Noise Transplantation and Cultivation Diffusion Model (TAUE), a novel framework for zero-shot, layer-wise image generation. Our core technique, Noise Transplantation and Cultivation (NTC), extracts intermediate latent representations from both foreground and composite generation processes, transplanting them into the initial noise for subsequent layers. This ensures semantic and structural coherence across foreground, background, and composite layers, enabling consistent, multi-layered outputs without requiring fine-tuning or auxiliary datasets. Extensive experiments show that our training-free method achieves performance comparable to fine-tuned methods, enhancing layer-wise consistency while maintaining high image quality and fidelity. TAUE not only eliminates costly training and dataset requirements but also unlocks novel downstream applications, such as complex compositional editing, paving the way for more accessible and controllable generative workflows.
