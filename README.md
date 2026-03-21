@@ -13,6 +13,10 @@ Despite the remarkable success of text-to-image diffusion models, their output o
 
 https://github.com/user-attachments/assets/6902713f-0658-407a-8ed8-92d859aad780
 
+## Acknowledgement
+
+The project page under `docs/` is based on [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template).
+
 ## LICENSE
 
 Apache License 2.0
